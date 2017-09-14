@@ -1,0 +1,168 @@
+/*
+Source Server         : localhost
+Source Host           : 127.0.0.1:3306
+Source Database       : farmacia
+
+Date: Thu-Dec-2015 19:34:51
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+
+DROP TABLE IF EXISTS `fmc_actor`;
+CREATE TABLE `fmc_actor` (
+  `ACT_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `ACT_CODE` varchar(255) NOT NULL,
+  `ACT_FNAME` varchar(255) NOT NULL,
+  `ACT_LNAME` varchar(255) NOT NULL,
+  `ACT_USERNAME` varchar(255) NOT NULL,
+  `ACT_INSTITUTION` varchar(255) NOT NULL,
+  `ACT_PWD` varchar(255) NOT NULL,
+  `ACT_TEL` varchar(255) NOT NULL,
+  `ACT_BRANCH` varchar(11) NOT NULL,
+  `ACT_CRDATE` datetime NOT NULL,
+  `ACT_UPDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `ACT_LEVEL` varchar(255) NOT NULL,
+  `ACT_STATUS` enum('-1','0','1') NOT NULL DEFAULT '1',
+  `ANAS` enum('0','1') NOT NULL DEFAULT '0',
+  PRIMARY KEY (`ACT_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+INSERT INTO `fmc_actor` VALUES ('1','FMC_ACT001','emmanuel','anyele','delmundo','FMC','rsu1CePTFfusHlVCXyxQWbYeFKb3jKgoVaDsjys26dKncm2l4B3398ZqVz0pjJUzhlZeeBQ05B5Ocqp3WR9cfw','','','0000-00-00 00:00:00','2015-12-31 11:22:39','L01','1','1');
+
+
+
+DROP TABLE IF EXISTS `fmc_actor_level`;
+CREATE TABLE `fmc_actor_level` (
+  `LV_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LV_NAME` varchar(255) NOT NULL,
+  `LV_CODE` varchar(255) NOT NULL,
+  `LV_CRDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`LV_ID`),
+  KEY `LV_CODE` (`LV_CODE`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+INSERT INTO `fmc_actor_level` VALUES ('1','director','L01','2015-12-31 11:22:54');
+INSERT INTO `fmc_actor_level` VALUES ('2','manager','L02','2015-12-31 11:23:01');
+INSERT INTO `fmc_actor_level` VALUES ('3','emloyee','L03','2015-12-31 11:23:08');
+
+
+
+DROP TABLE IF EXISTS `fmc_actor_session`;
+CREATE TABLE `fmc_actor_session` (
+  `SS_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `SS_ACTOR` varchar(11) NOT NULL,
+  `SS_LASTSEEN` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `SS_STATUS` enum('0','1') NOT NULL,
+  `SS_INSTITUTION` varchar(255) NOT NULL,
+  PRIMARY KEY (`SS_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+INSERT INTO `fmc_actor_session` VALUES ('3','FMC_ACT001','2015-12-31 19:33:55','1','');
+
+
+
+DROP TABLE IF EXISTS `fmc_drug`;
+CREATE TABLE `fmc_drug` (
+  `ITM_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `ITM_TITLE` varchar(255) NOT NULL,
+  `ITM_CODE` varchar(255) NOT NULL,
+  `ITM_CATEGORY` int(255) NOT NULL,
+  `ITM_TYPE` varchar(255) NOT NULL,
+  `ITM_BRAND` varchar(255) NOT NULL,
+  `ITM_SALQ` enum('1') NOT NULL,
+  `ITM_COSTPRICE` decimal(10,2) NOT NULL,
+  `ITM_SALEPRICE` decimal(10,2) NOT NULL,
+  `ITM_DESCRIPTION` text NOT NULL,
+  `ITM_QUANTITY` int(255) NOT NULL,
+  `ITM_BRANCH` varchar(255) NOT NULL,
+  `ITM_BULKCOST` decimal(10,2) NOT NULL,
+  `ITM_BULKQUANTITY` decimal(10,2) NOT NULL,
+  `ITM_INSTITUTION` varchar(255) NOT NULL,
+  `ITM_STATUS` enum('0','1') NOT NULL DEFAULT '1',
+  `ITM_CRDATE` datetime NOT NULL,
+  `ITM_UPDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`ITM_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+DROP TABLE IF EXISTS `fmc_drug_category`;
+CREATE TABLE `fmc_drug_category` (
+  `CG_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `CG_NAME` varchar(255) NOT NULL,
+  `CG_DESC` text NOT NULL,
+  `CG_INSTITUTION` varchar(255) NOT NULL,
+  `CG_CRDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `CG_STATUS` enum('0','1') NOT NULL DEFAULT '1',
+  PRIMARY KEY (`CG_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+DROP TABLE IF EXISTS `fmc_eventlog`;
+CREATE TABLE `fmc_eventlog` (
+  `EVL_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `EVL_CODE` varchar(255) NOT NULL,
+  `EVL_ACTID` varchar(11) NOT NULL,
+  `EVL_ACTIVITY` varchar(255) NOT NULL,
+  `EVL_IP` varchar(255) NOT NULL,
+  `EVL_BROWSER` varchar(255) NOT NULL,
+  `EVL_CRDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`EVL_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+DROP TABLE IF EXISTS `fmc_eventtype`;
+CREATE TABLE `fmc_eventtype` (
+  `EVT_ID` int(255) NOT NULL AUTO_INCREMENT,
+  `EVT_NAME` varchar(255) NOT NULL,
+  `EVT_CODE` varchar(255) NOT NULL,
+  PRIMARY KEY (`EVT_ID`),
+  KEY `EVT_CODE` (`EVT_CODE`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+DROP TABLE IF EXISTS `fmc_institution`;
+CREATE TABLE `fmc_institution` (
+  `INST_ID` int(40) NOT NULL AUTO_INCREMENT,
+  `INST_NAME` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `INST_CODE` varchar(255) NOT NULL,
+  `INST_LOGO` varchar(255) NOT NULL DEFAULT 'logo.png',
+  `INST_RECEIPT_CODE` varchar(255) NOT NULL,
+  `INST_TAX_RATE` decimal(10,2) NOT NULL,
+  `INST_NUMBER` varchar(255) NOT NULL,
+  `INST_EMAIL` varchar(255) NOT NULL,
+  `INST_ADDRESS` varchar(255) NOT NULL,
+  `INST_POLICY` text NOT NULL,
+  `INST_CURRENCY` varchar(255) NOT NULL DEFAULT 'GHS',
+  `INST_CRDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`INST_ID`),
+  KEY `INST_CODE` (`INST_CODE`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+INSERT INTO `fmc_institution` VALUES ('1','company name','FMC','fmc.png','FMC','0.00','1234567890','','','Please come again.
+Goods sold are not refundable','GHS','2015-12-31 14:15:57');
+
+
+
+DROP TABLE IF EXISTS `fmc_institution_licence`;
+CREATE TABLE `fmc_institution_licence` (
+  `LIC_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LIC_TYPE` varchar(11) NOT NULL,
+  `LIC_INSTITUTION` varchar(255) NOT NULL,
+  `LIC_STARTDATE` datetime NOT NULL,
+  `LIC_ENDDATE` datetime NOT NULL,
+  `LIC_CRDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`LIC_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_admin/
+Disallow: /_sae/
+Disallow: /_logs/
