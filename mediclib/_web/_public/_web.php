@@ -1,4 +1,4 @@
-<?php include(_TEMPL_.'head.php'); ?>
+ <?php include(_TEMPL_.'head.php'); ?>
 <body class="tg-home tg-login">
 <!--<div class="preloader-outer">
   <div class="pin"></div>
