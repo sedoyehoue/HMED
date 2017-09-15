@@ -1,5 +1,5 @@
 <?php
-final class Sql
+final class SQL
 {
 	
 	public static function query($query, $params=array()){

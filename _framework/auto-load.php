@@ -49,6 +49,7 @@ if($_REQUEST){
 date_default_timezone_set('UTC');
 $td = gmdate('Y-m-d H:i:s');
 $dt = gmdate('Y-m-d');
+$tm = gmdate('H:i:s');
 
 
 # FRAMEWORK LIBRARIES

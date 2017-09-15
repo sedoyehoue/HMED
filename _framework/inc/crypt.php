@@ -16,13 +16,13 @@ class pCrypt
 
     public static function safe_b64encode($string) {
         $data = base64_encode($string);
-        $data = str_replace(array('+','/','='),array('-','_',''),$data);
+        $data = str_replace(array('+', '/', '='),array('-', '_', ''),$data);
         return $data;
     }#end
 	
 
     public static function safe_b64decode($string) {
-        $data = str_replace(array('-','_'),array('+','/'),$string);
+        $data = str_replace(array('-', '_'),array('+', '/'),$string);
         $mod4 = strlen($data) % 4;
         if($mod4){
             $data .= substr('====', $mod4);
@@ -51,10 +51,10 @@ class pCrypt
     }#end
 	
 	
-	public static function cryptPassword($name,$password,$pepp=''){
+	public static function cryptPassword($name, $password, $pepp=''){
 		$pepper = empty($pepp)?PEPPER:$pepp;
 		$salt   = $name;
-		$pwd    = hash('sha256',$pepper.$password.$salt,false);
+		$pwd    = hash('sha256', $pepper.$password.$salt, false);
 		$pwd    = self::encode($pwd);
 		return  $pwd;
 	}#end

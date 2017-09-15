@@ -168,11 +168,11 @@ final class CHtml
 	}
 	
 	
-	public static function aempty($name='alwaysEmpty'){
+	public static function aempty($name='alwaysEmpty',$type='email'){
 		return self::create('input', array(
 			'name'=>$name,
 			'id'=>$name,
-			'type'=>'email',
+			'type'=>$type,
 			'style'=>'display:none;'
 		));
 	}

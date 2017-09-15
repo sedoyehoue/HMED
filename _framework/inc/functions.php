@@ -134,17 +134,29 @@ function fspinner_xs(){
 }
 
 
-function cPost($url='/', $data=array(), $decode='json'){
-	$ch = curl_init();
-	$headers = array('Content-Type:multipart/form-data');
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_POST, true);
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	$result = curl_exec($ch);
-	curl_close($ch);
+function cPost($url='/', $params=array(), $engine='curl', $decode='json'){
+	switch($engine){		
+		case 'curl':
+			$ch = curl_init();
+			$headers = array('Content-Type:multipart/form-data');
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_POST, true);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			$result = curl_exec($ch);
+			curl_close($ch);
+		break;		
+		case 'file':
+			/*$paroms = '';
+			foreach($params as $key => $value){
+				$paroms .= '&'.$key.'='.$value;
+			}*/
+			$ch = http_build_query($params);
+			$ch = urldecode($ch);
+			$result = file_get_contents($url.$ch);
+		break;		
+	}
 	switch($decode){
 		case 'json':
 			return json_decode($result, true);
