@@ -14,6 +14,11 @@ switch($page2):
 		Engine::redirect(WEB.'user/login');
 	break;
 	
+	case 'search':
+		
+		Engine::redirect(WEB.'user/doctors');
+	break;
+	
 endswitch;
 
 
@@ -29,10 +34,8 @@ switch($submit):
 			if(empty($username) == false && empty($password) == false){
 				$password = pCrypt::cryptPassword($username, $password);
 				//echo $password; die();
-				$row = Sql::select('SELECT ACT_ID, ACT_ACCESS_LEVEL, ACT_USERNAME, ACT_USERPASSWORD FROM `'.DBPREF.'actors` WHERE ACT_USERNAME = '.$sql->Param('1').'
-				AND ACT_USERPASSWORD = '.$sql->Param('2').' LIMIT 1', array($username, $password), 'row');
-
-				//print_r($row); die();
+				$row = Sql::select('SELECT * FROM `'.DBPREF.'actors` WHERE ACT_USER_NAME = '.$sql->Param('1').'
+				AND ACT_PASSWORD = '.$sql->Param('2').' LIMIT 1', array($username, $password), 'row');
 				if(count($row) > 0){
 					Session::set('m_d_l_account', $row['ACT_ID']);
 					Cookie::set('m_d_l_account', isset($keeplogin)?$row['ACT_ID']:'');

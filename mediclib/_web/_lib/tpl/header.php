@@ -1,23 +1,7 @@
 <header id="tg-header" class="tg-header tg-haslayout">
-  <div class="tg-topbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12"> <span class="tg-quickadvice">Get a Quick Advice: <strong>(+4) 1234 5667 - 9</strong></span>
-          <ul class="tg-contactinfo">
-            <li><a href="#">info@mediclib.com</a></li>
-            <li>
-              <address>
-              147 Tottenham, London, W1T 1JY
-              </address>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-xs-12"> <strong class="tg-logo"> <a href="<?php echo WEB; ?>"><img src="<?php echo _WEB_.''; ?>img/logo.png" alt="image description"></a> </strong>
+      <div class="col-sm-12 col-xs-12"> <strong class="tg-logo"> <a href="<?php echo WEB; ?>"><img src="<?php echo _WEB_.'img/logo.png'; ?>" alt="image description"></a> </strong>
         <div class="tg-navigationarea">
           <nav id="tg-nav" class="tg-nav">
             <div class="navbar-header">

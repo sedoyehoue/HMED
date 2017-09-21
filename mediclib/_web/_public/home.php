@@ -1,68 +1,31 @@
-<!--************************************
-				Home Banner Start				
-		*************************************-->
 
 <div id="tg-homebanner" class="tg-homebanner tg-haslayout">
-  <figure class="tg-bannerbg"> <img src="<?php echo _WEB_.''; ?>img/banner/img-01.jpg" alt="image description"> </figure>
+  <figure class="tg-bannerbg"> <img src="<?php echo _WEB_.'img/banner/img-01.jpg'; ?>" alt="sectionline"> </figure>
   <div class="tg-bannercontent">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-xs-12">
-          <form class="tg-formtheme tg-formsearch" action="<?php echo WEB.'how-it-works'; ?>">
+          <form method="post" accept-charset="utf-8" action="<?php echo WEB.'search/'; ?>" class="tg-formtheme tg-formsearch">
             <div class="tg-sectionhead">
               <div class="tg-sectiontitle">
                 <h1>Find a Medical Help!</h1>
-                <img class="tg-svginject" src="<?php echo _WEB_.''; ?>img/sectionline.svg" alt="image description"> </div>
+                <img class="tg-svginject" src="<?php echo _WEB_.'img/sectionline.svg'; ?>" alt="sectionline"> </div>
             </div>
             <fieldset>
               <div class="tg-select">
                 <select>
-                  <option value="">Select Country</option>
-                  <option value="aberdeen">Aberdeen</option>
-                  <option value="aldershot">Aldershot</option>
-                  <option value="altrincham">Altrincham</option>
-                  <option value="aylesbury">Aylesbury</option>
-                  <option value="bamber">Bamber</option>
-                  <option value="bangor">Bangor</option>
-                  <option value="batley">Batley</option>
-                  <option value="bebingto">Bebingto</option>
-                  <option value="bedford">Bedford</option>
-                  <option value="birmingham">Birmingham</option>
-                  <option value="blackpool">Blackpool</option>
-                  <option value="brentwood">Brentwood</option>
-                  <option value="bristol">Bristol</option>
-                  <option value="cardiff">Cardiff</option>
-                  <option value="carlisle">Carlisle</option>
-                  <option value="crawley">Crawley</option>
-                  <option value="darlington">Darlington</option>
-                  <option value="eastleigh">Eastleigh</option>
-                  <option value="edinburg">Edinburg</option>
-                  <option value="esher">Esher</option>
-                  <option value="glasgow-sco">Glasgow SCO</option>
-                  <option value="guildford">Guildford</option>
-                  <option value="halesowen">Halesowen</option>
-                  <option value="halifax">Halifax</option>
-                  <option value="hamilton">Hamilton</option>
-                  <option value="leeds">Leeds</option>
-                  <option value="leicester">Leicester</option>
-                  <option value="liverpool">Liverpool</option>
-                  <option value="london">London</option>
-                  <option value="louisville">Louisville</option>
-                  <option value="manchester">Manchester</option>
-                  <option value="sheffield">Sheffield</option>
+                  <option value="">Région</option>
+                  <option value="">Région</option>
                 </select>
               </div>
               <div class="tg-select">
                 <select>
-                  <option>City/State</option>
-                  <option>Manchester</option>
-                  <option>Birmingham</option>
-                  <option>Bradford</option>
+                  <option value="">Ville</option>
+                  <option value="">Ville</option>
                 </select>
               </div>
-              ; 
-              
-              <button type="submit" class="tg-btnformsearch" ><i class="fa fa-search"></i></button>
+              <input type="text" name="category" class="form-control" placeholder="Médecin, établissement, spécialité…">
+              <button type="submit" class="tg-btnformsearch"><i class="fa fa-search"></i></button>
             </fieldset>
             <div class="tg-searchbulder">
               <div id="tg-categoryslider" class="tg-categoryslider tg-category"> <span data-id="doctorscategory" class="item tg-radio">
@@ -90,7 +53,6 @@
                 <input type="radio" id="clinics" name="maincategory" value="Clinics">
                 <label for="clinics"> <span><img src="<?php echo _WEB_.''; ?>img/icons/icon-15.png" alt="image description"></span> <span>Clinics</span> </label>
                 </span> </div>
-             
             </div>
           </form>
         </div>
@@ -189,10 +151,7 @@
   <!--************************************
 					Statistics End					
 			*************************************--> 
- 
- 
   
-
 </main>
 <!--************************************
 				Main End

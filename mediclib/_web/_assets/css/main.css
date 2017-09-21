@@ -20,9 +20,11 @@
 */
 
 /* =============================================
-			Theme Reset Style
+			Theme Reset Style @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oxygen:300,400,500,600,700);
 ============================================= */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oxygen:300,400,500,600,700);
+
+@import '../fonts/opensans/opensans.css';
+@import '../fonts/oxygen/oxygen.css';
 * {
 	margin: 0px;
 	padding: 0px;
@@ -298,7 +300,7 @@ label {
 	color: #484848;
 	display: block;
 	margin-bottom: 6px;
-	text-transform: capitalize;
+	*text-transform: capitalize;
 	font:400 13px/16px 'Oxygen', Arial, Helvetica, sans-serif;
 }
 form p {
@@ -1204,9 +1206,12 @@ body.tg-home .tg-main{padding: 20px 0;}
 }
 .tg-navigation > ul > li > a{
 	display:block;
-	color:#484848;
-	padding: 0 0 43px;
+	color:#fff;
+	padding: 16px 0 0px;
 	line-height:inherit;
+}
+.tg-navigation > ul > li > a:hover{
+	color:#fafafa !important;
 }
 .tg-navigation ul li a{display: block;}
 .tg-navigation > ul > li + li:before{
@@ -7595,4 +7600,16 @@ body.tg-comingsoon-page .tg-copyright{
 	-ms-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
 	}
+}
+
+
+
+.tg-header {
+	background: #32A9E4;
+}
+.tg-logo {
+    margin: 16px 0;
+}
+.tg-navigationarea {
+    padding: 0px 0 0;
 }

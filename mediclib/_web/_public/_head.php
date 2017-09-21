@@ -1,6 +1,4 @@
  <?php
-$some  = '404';
-$cat = '';
 $title = '404. Page Not Found.';
 $metad = '';
 $metai = _WEB_.'img/logo.gif';
@@ -28,7 +26,8 @@ switch($page1):
 	break;
 	
 	case 'index':
-		$title = $appname;
+		$title = $appname.' : Prenez rendez-vous en ligne chez un médecin ou un dentiste';
+		$metad = 'Trouvez rapidement un spécialiste près de chez vous et prenez rendez-vous gratuitement en ligne en quelques clics';
 		$content = _PUBLIC_.'home.php';
 	break;
 	

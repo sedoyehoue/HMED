@@ -35,7 +35,7 @@
                     <div class="tg-kepploginpassword">
                       <div class="tg-checkbox">
                         <input type="checkbox" name="keeplogin" id="keeplogin" checked value="1">
-                        <label for="keeplogin" class="pointer">Se rappeller de moi</label>
+                        <label for="keeplogin" class="pointer">Se souvenir de moi sur cet appareil</label>
                       </div>
                     </div>
                     <button class="tg-btn tg-btn-lg" type="submit" name="submit" value="login">Se connecter</button>
