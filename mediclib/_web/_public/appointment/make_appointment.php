@@ -1,6 +1,67 @@
 
-					Inner Banner Start			
-		*************************************-->
+					
+<?PHP
+					$a= array("1","2","3");
+print_r($a);
+
+echo '<br/>';
+$b=serialize($a);
+echo $b;
+
+echo '<br/>';
+$c=unserialize($b);
+print_r($c);
+
+$d=array('CON00000001','CON00000002','CON00000003');
+$e= serialize($d);
+
+echo '<br/>';
+
+echo $e;
+echo '<br/>';
+
+$f='DOC00000011';
+$table = DBPREF.'doctors';
+echo $table;
+echo '<br/>';
+
+
+$row = Sql::query('UPDATE `'.DBPREF.'doctors` SET DOC_CON_CODE = '.$sql->Param('1').' WHERE DOC_CODE ='.$sql->Param('2').' ', array($e, $f) );
+
+if($row){echo 'succeed';
+}
+else{echo 'nooooooo';}
+
+echo '<br/>';
+
+
+$row = Sql::select('SELECT  DOC_CON_CODE  FROM `'.DBPREF.'doctors` WHERE DOC_CODE ='.$sql->Param('2').' ', array($f), 'row' );
+
+$result = $row;
+
+echo $result{0};
+echo '<br/>';
+echo '<br/>';
+
+$c=unserialize($result{0});
+print_r($c);
+
+ 
+
+
+
+
+
+
+
+
+
+//Run this program its echo the output
+
+//a:3:{i:0;s:1:"1";i:1;s:1:"2";i:2;s:1:"3";}	
+?>
+		
+
 		<div id="tg-innerbanner" class="tg-innerbanner tg-haslayout">
 			<div class="container">
 				<div class="row">
@@ -517,10 +578,11 @@
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
 									<div class="tg-select">
-										<select name="relation">
+										<select name="relation" placeholder="His/Her Relation">
 											<option value="">His/Her Relation</option>
-											<option value="">His/Her Relation</option>
-											<option value="">His/Her Relation</option>
+											<option value="Family">Family</option>
+											<option value="Friend">Friend</option>
+											<option value="Colleague">Colleague</option>
 										</select>
 									</div>
 								</div>
@@ -528,7 +590,7 @@
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
 									<div class="tg-select">
-										<select name="location">
+										<select name="venue" required>
 											<option value="">Where to visit:*</option>
 											<option value="">Where to visit:*</option>
 											<option value="">Where to visit:*</option>
@@ -539,18 +601,7 @@
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
 									<div class="tg-select">
-										<select name="appointment_type">
-											<option value="">Appointment Type:*</option>
-											<option value="">Appointment Type:*</option>
-											<option value="">Appointment Type:*</option>
-										</select>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4 col-xs-12 tg-columnpadding">
-								<div class="form-group">
-									<div class="tg-select">
-										<select name="motif">
+										<select name="motif" required>
 											<option value="">Reason for visit:*</option>
 										</select>
 									</div>
@@ -720,30 +771,6 @@
 	<!--************************************
 				Light Box End				
 	*************************************-->
-	<script src="js/vendor/jquery-library.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/mapclustering/data.json"></script>
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
-	<script src="js/mapclustering/markerclusterer.min.js"></script>
-	<script src="js/mapclustering/infobox.js"></script>
-	<script src="js/bootstrap-timepicker.min.js"></script>
-	<script src="js/customScrollbar.min.js"></script>
-	<script src="js/mapclustering/map.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/isotope.pkgd.js"></script>
-	<script src="js/packery-mode.js"></script>
-	<script src="js/svg-injector.js"></script>
-	<script src="js/moment.min.js"></script>
-	<script src="js/fullcalendar.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
-	<script src="js/collapse.js"></script>
-	<script src="js/parallax.js"></script>
-	<script src="js/readmore.js"></script>
-	<script src="js/countTo.js"></script>
-	<script src="js/loader.js"></script>
-	<script src="js/appear.js"></script>
-	<script src="js/gmap3.js"></script>
-	<script src="js/main.js"></script>
+	
 </body>
 

@@ -34,5 +34,10 @@ switch($page1):
 	case 'user':
 		include(_PUBLIC_.'user'.DS.'_user.php');
 	break;
+
+	case 'appointment':
+		include(_PUBLIC_.'appointment'.DS.'_make_appointment.php');
+	break;
+	
 	
 endswitch;

@@ -32,7 +32,14 @@ switch($submit):
 	case 'login':
 		if(empty($alwaysEmpty) == true){
 			if(empty($username) == false && empty($password) == false){
+				try {
 				$password = pCrypt::cryptPassword($username, $password);
+			     }
+			     catch (EXCEPTION $e) {
+			     		echo '';
+
+			     }
+
 				//echo $password; die();
 				$row = Sql::select('SELECT * FROM `'.DBPREF.'actors` WHERE ACT_USER_NAME = '.$sql->Param('1').'
 				AND ACT_PASSWORD = '.$sql->Param('2').' LIMIT 1', array($username, $password), 'row');

@@ -24,13 +24,14 @@ define( 'ERROR_FRWK'  ,		FRWK.DS.'_framework'.DS.'error'.DS );
 # ERROR HANDLER
 if(defined('ERROR') == TRUE && ERROR == TRUE){
 	@error_reporting( E_ALL );
-	@ini_set( 'log_errors' , 'Off');
+	@ini_set( 'log_errors' , 'On');
 	@ini_set( 'display_errors', 'On' );
+	@ini_set( 'error_log', ERROR_LOG );
 	
 }else{
 	@error_reporting( 0 );
-	@ini_set( 'display_errors' , 'Off' );
-	@ini_set( 'log_errors' , 'On');
+	@ini_set( 'display_errors' , 'On' );
+	@ini_set( 'log_errors' , 'OFF');
 	@ini_set( 'error_log', ERROR_LOG );
 }
 
