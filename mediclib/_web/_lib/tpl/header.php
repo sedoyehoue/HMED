@@ -16,10 +16,10 @@
             </div>
           </nav>
           <?php if(Session::get('m_d_l_account') == true){ ?>
-          <div class="tg-admin"> <a class="tg-btn" href="#">Become A Member</a>
+          <div class="tg-admin">
             <div class="tg-user">
               <div class="tg-dropdown">
-                <figure class="tg-adminpic"> <span class="tg-dashboardbadge">3</span> <a href="<?php echo WEB.'user/dashboard'; ?>"><img src="<?php echo _WEB_.''; ?>img/icons/icon-41.png" alt="image description"></a> </figure>
+                <figure class="tg-adminpic"> <span class="tg-dashboardbadge hide">3</span> <a href="<?php echo WEB.'user/dashboard'; ?>"><img src="<?php echo _WEB_.''; ?>img/icons/icon-41.png" alt="image description"></a> </figure>
                 <a href="javascript:void(0);" class="tg-usermenu tg-btndropdown"> <em>howdy, Anjela doe!</em> </a>
                 <div class="dropdown-menu tg-dropdownbox tg-usermenu">
                   <ul>
@@ -42,9 +42,7 @@
           </div>
           <?php }else{ ?>
           <div class="tg-admin">
-            <div class="tg-user">
-              <div class="tg-dropdown"> <a href="<?php echo WEB.'user/login'; ?>" class="tg-usermenu"> <em><i class="fa fa-sign-in"></i> <span>Se connecter</span></em> </a> </div>
-            </div>
+            <a href="<?php echo WEB.'user/login'; ?>" class="tg-btn">Se connecter</a>
           </div>
           <?php } ?>
         </div>

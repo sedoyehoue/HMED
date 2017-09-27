@@ -1,15 +1,17 @@
 <?php 
-define( '_WEB_'	,	WEB.'_web/_assets/' );
+define('_WEB_', WEB.'_web/_assets/');
 
-# CONTROLLER(S)
-include(_CONTROL_.DS.'user.inc'); 
+# controllers
+include(_CONTROL_.'doctors.inc'); 
 
-$page1 = Permalinks::segment('2');
-$page2 = Permalinks::segment('3');
-$page3 = Permalinks::segment('4');
-$page4 = Permalinks::segment('5');
-$page5 = Permalinks::segment('6');
+$p=2;
+$page1 = Permalinks::segment($p+1);
+$page2 = Permalinks::segment($p+2);
+$page3 = Permalinks::segment($p+3);
+$page4 = Permalinks::segment($p+4);
+$page5 = Permalinks::segment($p+5);
 $page1 = empty($page1)?'index':$page1;
+
 
 if(isset($ajax_request) == false){	
 	include(_PUBLIC_.'_head.php');

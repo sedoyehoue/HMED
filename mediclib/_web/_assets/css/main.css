@@ -1180,7 +1180,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 .tg-nav,
 .tg-admin{float: left;}
 .tg-nav{
-	padding: 11px 0 0;
+	padding: 0px 0 0;
 	text-transform: capitalize;
 	font:14px/20px 'Oxygen', Arial, Helvetica, sans-serif;
 }
@@ -1336,11 +1336,14 @@ body.tg-home .tg-main{padding: 20px 0;}
 	position: static;
 	display: inline-block;
 }
-.tg-btndropdown{
-	color:#484848;
+.tg-btndropdown {
+	color:#fff;
 	outline: none;
 	display: block;
 	background: transparent;
+}
+.tg-btndropdown:hover {
+	color:#fff !important;
 }
 .tg-dropdownbox{
 	border: 0;
@@ -1530,9 +1533,12 @@ body.tg-home .tg-main{padding: 20px 0;}
 .tg-alreadyhaveaccount h3 a{ color: #55acee; }
 .tg-user .tg-usermenu{
 	margin: 7px 0 0;
-	padding:0 0 46px;
+	padding:0 0 0px;
 	display:inline-block;
 	vertical-align:middle;
+}
+.tg-user .tg-dropdown {
+	padding-top: 10px;
 }
 .tg-user .tg-usermenu em{
 	position: relative;
@@ -1598,7 +1604,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 .tg-dropdown.open .tg-dropdownbox.tg-usermenu{top: 50px;}
 .tg-login .tg-admin .tg-guest,
 .tg-admin .tg-user,
-.tg-login .tg-admin .tg-btn{display: none;}
+.tg-login .tg-admin .tg-btn{*display: none;}
 .tg-login .tg-admin .tg-user{
 	display: block;
 	position:relative;
@@ -4993,6 +4999,7 @@ body.tg-home .tg-leftarea {
 	list-style-type: none;
 }
 .tg-monthlyviewstabnav li a{
+
 	color: #484848;
 	display: block;
 	padding: 0 20px;
@@ -7608,8 +7615,19 @@ body.tg-comingsoon-page .tg-copyright{
 	background: #32A9E4;
 }
 .tg-logo {
-    margin: 16px 0;
+    margin: 8px 0;
 }
 .tg-navigationarea {
     padding: 0px 0 0;
+}
+.tg-header .tg-btn {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.tg-header .tg-btn:hover {
+	color: #32A9E4 !important;
+	background: #fff;
 }

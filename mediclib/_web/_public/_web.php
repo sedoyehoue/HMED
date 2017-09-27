@@ -1,9 +1,9 @@
 <?php include(_TEMPL_.'head.php'); ?>
-<body class="tg-home tg-login">
-<!--<div class="preloader-outer">
+<body class="<?php echo $page1 == 'index'?'tg-home':'tg-loginn'; ?>">
+<div class="preloader-outer hide">
   <div class="pin"></div>
   <div class="pulse"></div>
-</div>-->
+</div>
 <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
   <?php include(_TEMPL_.'header.php'); ?>
   <?php
@@ -12,9 +12,8 @@
 	}else{
 		include(_PUBLIC_.'404.php');
 	}
-	?>
+  ?>
   <footer id="tg-footer" class="tg-footer tg-haslayout">
-   
     <div class="tg-quicklinks">
       <div class="container">
         <div class="row">

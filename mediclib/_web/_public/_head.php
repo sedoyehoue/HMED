@@ -40,4 +40,20 @@ switch($page1):
 	break;
 	
 	
+	
+	
+	case 'search':
+		Engine::redirect(WEB.'doctors');
+	break;
+	
+	case 'doctors':
+		$title = 'Praticiens à Paris 75000 : Rendez-vous par Internet sous 24h - '.$appname;
+		$metad = 'Trouvez rapidement un praticien à Paris et prenez rendez-vous gratuitement en ligne en quelques clics';
+		$doctors = Doctors::doc(array(
+			'status'=>1,
+			//'query'=>'bright'
+		));
+		$content = _PUBLIC_.'doctors.php';
+	break;
+	
 endswitch;

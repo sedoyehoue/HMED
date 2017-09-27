@@ -27,7 +27,7 @@
               <input type="text" name="category" class="form-control" placeholder="Médecin, établissement, spécialité…">
               <button type="submit" class="tg-btnformsearch"><i class="fa fa-search"></i></button>
             </fieldset>
-            <div class="tg-searchbulder">
+            <div class="tg-searchbulder hide">
               <div id="tg-categoryslider" class="tg-categoryslider tg-category"> <span data-id="doctorscategory" class="item tg-radio">
                 <input type="radio" id="doctors" name="maincategory" value="Doctors" checked="">
                 <label for="doctors"> <span><img src="<?php echo _WEB_.''; ?>img/icons/icon-08.png" alt="image description"></span> <span>Doctors</span> </label>
@@ -60,12 +60,8 @@
     </div>
   </div>
 </div>
-<!--************************************
-				Home Banner End					
-		*************************************--> 
-<!--************************************
-				Main Start						
-		*************************************-->
+
+
 <main id="tg-main" class="tg-main tg-haslayout"> 
   <!--************************************
 					Features Start
@@ -153,6 +149,3 @@
 			*************************************--> 
   
 </main>
-<!--************************************
-				Main End
-		*************************************--> 
