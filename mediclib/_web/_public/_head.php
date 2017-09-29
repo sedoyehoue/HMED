@@ -33,7 +33,7 @@ switch($page1):
 
 	case 'search':
 		
-		Engine::redirect(WEB.'search/_search_result');
+			include(_PUBLIC_.'search_result_v2'.DS.'_search_result.php');
 	break;
 	
 	case 'user':
