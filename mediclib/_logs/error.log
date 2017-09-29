@@ -11195,3 +11195,1164 @@ Stack trace:
 #4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
 #5 {main}
   thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:06:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:07:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:07:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:08:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:09:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:10:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/HMED/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HMED/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
+[29-Sep-2017 16:11:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Sprache' not found in /Applications/MAMP/htdocs/_framework/inc/scripts.php:72
+Stack trace:
+#0 /Applications/MAMP/htdocs/_framework/inc/JSscripts.php(10): include()
+#1 /Applications/MAMP/htdocs/HMED/mediclib/_web/_lib/tpl/footer.php(25): JS::scripts()
+#2 /Applications/MAMP/htdocs/HMED/mediclib/_web/_public/_web.php(313): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HMED/mediclib/_web/index.php(18): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HMED/mediclib/index.php(3): include('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/_framework/inc/scripts.php on line 72
