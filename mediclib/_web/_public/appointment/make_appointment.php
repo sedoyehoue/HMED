@@ -544,45 +544,45 @@ print_r($c);
 		<div class="modal-dialog tg-modaldialog">
 			<div class="modal-content tg-modalcontent">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-				<h2>Book Your Appointment!</h2>
+				<h2>Prenez Rendez-vous!</h2>
 				<form method="post" autocomplete="off" accept-charset="utf-8" class="tg-formbookappointment">
 					<ul class="tg-formprogressbar">
-						<li class="tg-active"><span>Request Appointment</span></li>
-						<li><span>Verify Your Password</span></li>
-						<li><span>Verify Code</span></li>
-						<li><span>Complete</span></li>
+						<li class="tg-active"><span>Demande de Rendez-vous</span></li>
+						<li><span>Identification</span></li>
+						<li><span>Code de Verification</span></li>
+						<li><span>Demande Envoyé</span></li>
 					</ul>
 					<fieldset class="tg-formstepone tg-current">
-						<h3>What Would You Like To See The Doctor For?</h3>
+						<h3>Motif de Consultation</h3>
 						<div class="row tg-rowmargin">
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
 									<div class="tg-patienttype">
-										<strong>Patient is:*</strong>
+										<strong>Le Patient est:*</strong>
 										<span class="tg-checkbox">
 											<input type="checkbox" id="myself" name="patient_is" value="myself">
-											<label for="myself">Myself</label>
+											<label for="myself">Moi-même</label>
 										</span>
 										<span class="tg-checkbox">
-											<input type="checkbox" id="someoneelse" name="patient_id" value="someoneelse">
-											<label for="someoneelse">Someone Else</label>
+											<input type="checkbox" id="someoneelse" name="patient_is" value="someoneelse">
+											<label for="someoneelse">Autre</label>
 										</span>
 									</div>
 								</div>
 							</div>
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
-									<input type="text" name="patientName" class="form-control" placeholder="His/Her Name" required>
+									<input type="text" name="patientName" class="form-control" placeholder="Nom du patient:*" required>
 								</div>
 							</div>
-							<div class="col-sm-4 col-xs-12 tg-columnpadding">
+							<div class="col-sm-4 col-xs-12 tg-columnpadding" id="relation">
 								<div class="form-group">
 									<div class="tg-select">
 										<select name="relation" placeholder="His/Her Relation">
-											<option value="">His/Her Relation</option>
-											<option value="Family">Family</option>
-											<option value="Friend">Friend</option>
-											<option value="Colleague">Colleague</option>
+											<option value="">votre relation*</option>
+											<option value="Family">Famille</option>
+											<option value="Friend">Ami(e)</option>
+											<option value="Colleague">Collègue</option>
 										</select>
 									</div>
 								</div>
@@ -590,10 +590,9 @@ print_r($c);
 							<div class="col-sm-4 col-xs-12 tg-columnpadding">
 								<div class="form-group">
 									<div class="tg-select">
-										<select name="venue" required>
-											<option value="">Where to visit:*</option>
-											<option value="">Where to visit:*</option>
-											<option value="">Where to visit:*</option>
+										<select name="site_rdv" required>
+											<option value="">Lieu de RDV*</option>
+											
 										</select>
 									</div>
 								</div>
@@ -602,22 +601,22 @@ print_r($c);
 								<div class="form-group">
 									<div class="tg-select">
 										<select name="motif" required>
-											<option value="">Reason for visit:*</option>
+											<option value="">Motif:*</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-xs-12 tg-columnpadding">
 								<div class="form-group">
-									<textarea class="form-control" placeholder="Comments:"></textarea>
+									<textarea class="form-control" placeholder="Commentaire:"></textarea>
 								</div>
 							</div>
 							<div class="col-sm-12 col-xs-12 tg-columnpadding">
 								<div class="tg-timeslothead">
-									<h3>Select Best Time To See The Doctor</h3>
+									<h3>Choississez la date et l'horaire de votre RDV</h3>
 									<span class="tg-checkbox">
 										<input type="checkbox" id="firstavailableslot" name="firstavailableslot" value="">
-										<label for="firstavailableslot">Appoint First Available Time</label>
+										<label for="firstavailableslot">Selectionnez le 1er horaire disponible</label>
 									</span>
 								</div>
 							</div>
@@ -695,32 +694,101 @@ print_r($c);
 							</div>
 						</div>
 						<div class="tg-btnbox">
-							<button type="button" class="tg-btn tg-btnnext">Next Step</button>
+							<button type="button" class="tg-btn tg-btnnext">Suivant</button>
 						</div>
 					</fieldset>
 					<fieldset class="tg-formsteptwo">
-						<h3>Verify Is That You?</h3>
-						<div class="row tg-rowmargin">
+						
+						<div class="tg-dashboardtabs">
+										<ul class="tg-dashboardtabnav" role="tablist">
+											<li role="presentation" class="active">
+												<a href="#login" aria-controls="login" role="tab" data-toggle="tab">Connectez-vous</a>
+											</li>
+											<li role="presentation">
+												<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab">SInscrivez-vous</a>
+											</li>
+										</ul>
+
+										<div class="tab-content tg-dashboardtabcontent">
+
+											<!-- login form	 -->
+									
+										<div role="tabpanel" class="tab-pane active" id="login">
+							<div class="col-sm-6 tg-columnpadding" >
+								<div class="form-group">
+									<input type="email" name="p_username" class="form-control" placeholder="votre Email*">
+								</div>
+							</div>
+
+			
 							<div class="col-sm-6 tg-columnpadding">
 								<div class="form-group">
-									<input type="password" name="password" class="form-control" placeholder="Password*">
+									<input type="password" name="password" class="form-control" placeholder="Votre mot de passe*">
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-xs-12">
+								<span class="tg-checkbox">
+									<input type="checkbox" id="confirmez_donnees" name="confirmez_donnees" value="confirmez_donnees">
+									<label for="remember">J'accepte la Politique relative à la protection des données personnelles de Mediclib.</label> </span>			
+							</div>	
+
+							<div class="col-sm-12 col-xs-12">
+								<span class="tg-checkbox">
+									<input type="checkbox" id="remember" name="remember" value="remember">
+									<label for="remember">Se souvenir de moi sur cet appareil</label> </span>
+							</div>
+
+							</div>
+
+							<!-- End login form -->
+
+							<!-- signup form -->
+
+											<div role="tabpanel" class="tab-pane " id="signup">
+
+													<div class="col-sm-6 tg-columnpadding">
+								<div class="form-group">
+								<input type="email" name="p_username" class="form-control" placeholder="votre Email*">
 								</div>
 							</div>
 							<div class="col-sm-6 tg-columnpadding">
 								<div class="form-group">
-									<input type="password" name="retypepassword" class="form-control" placeholder="Retype Password*">
+									
+									<input type="text" name="p_tel" class="form-control onlynums" placeholder="Telephone portable*">
+								</div>
+							</div>
+
+							<div class="col-sm-6 tg-columnpadding">
+								<div class="form-group">
+
+									<input type="password" name="password" class="form-control" placeholder="votre mot de passe*">
+								</div>
+							</div>
+							<div class="col-sm-6 tg-columnpadding">
+								<div class="form-group">
+									<input type="password" name="retypepassword" class="form-control" placeholder="Confirmez votre mot de passe*">
 								</div>
 							</div>
 							<div class="col-sm-12 col-xs-12">
 								<span class="tg-checkbox">
 									<input type="checkbox" id="remember" name="remember" value="remember">
-									<label for="remember">Trust This Computer For Next Time</label>
+									<label for="remember">Se souvenir de moi sur cet appareil</label>
 								</span>
 							</div>
-						</div>
+
+										</div>
+
+										</div>
+
+										<!-- end signup form -->
+			
+						
+							</div>
+
 						<div class="tg-btnbox">
-							<button type="button" class="tg-btn tg-btnnext">Next Step</button>
-							<button type="button" class="tg-btn tg-btnprevious">previous Step</button>
+							<button type="button" class="tg-btn tg-btnnext">Suivant</button>
+							<button type="button" class="tg-btn tg-btnprevious">Précedant</button>
 						</div>
 					</fieldset>
 					<fieldset class="tg-formstepthree">
@@ -737,11 +805,11 @@ print_r($c);
 						</div>
 						<div class="tg-btnbox">
 							<button type="button" class="tg-btn tg-btnnext">Next Step</button>
-							<button type="button" class="tg-btn tg-btnprevious">previous Step</button>
+							<button type="button" value="submit" class="tg-btn tg-btnprevious">previous Step</button>
 						</div>
 					</fieldset>
 					<fieldset class="tg-formstepfour">
-						<h3>Appointment Confirmed</h3>
+						<h3>Demande de Rendez-Vous Envoyé</h3>
 						<div class="tg-description">
 							<p>Consectetur adipisicing elit sent to <a href="#">yourmail@domain.com</a> and your appointment ID is <a href="#">2124539</a> incididunt ut labore et dolore magna aliqua enim adminim ayiam quis nostrud exercitation commodo.</p>
 						</div>
@@ -771,6 +839,56 @@ print_r($c);
 	<!--************************************
 				Light Box End				
 	*************************************-->
+	<script>
+		
+		
+		$(document).ready(function(){
+
+
+	$("#myself").prop("checked", true) ;
+			
+								$("#myself").on("click", function(){
+        $("#myself").prop("checked", true) ;
+        $("#someoneelse").prop("checked", false) ;	
+        $("#relation").show();
+
+    }); 
+
+    	$("#someoneelse").on("click", function(){
+    	$("#someoneelse").prop("checked", true) ;
+     $("#myself").prop("checked", false) ;	
+     $("#relation").hide();
+   });
+
+
+
+
+       // $("#signup").hide();
+
+     // ALLOW ONLY NUMBERS
+if($('.onlynums')){
+
+				$('.onlynums').keypress(function(event){
+        this.value = this.value.replace(/[^0-9\./*+-]/g,'');
+	});
+
+	   $('.onlynums').keydown(function(event){
+        this.value = this.value.replace(/[^0-9\./*+-]/g,'');
+	});
+	   
+    $('.onlynums').keyup(function(event){
+        this.value = this.value.replace(/[^0-9\./*+-]/g,'');
+	});
+
+   }
+
+    
+});
+
+
+
+
+	</script>
 	
 </body>
 

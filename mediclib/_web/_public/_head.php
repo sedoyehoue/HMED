@@ -30,10 +30,24 @@ switch($page1):
 		$metad = 'Trouvez rapidement un spécialiste près de chez vous et prenez rendez-vous gratuitement en ligne en quelques clics';
 		$content = _PUBLIC_.'home.php';
 	break;
+
+	case 'search':
+		
+		Engine::redirect(WEB.'search/_search_result');
+	break;
 	
 	case 'user':
 		include(_PUBLIC_.'user'.DS.'_user.php');
 	break;
+
+	case 'doctor':
+		include(_PUBLIC_.'doctor'.DS.'_doctor.php');
+	break;
+
+	case 'login':
+		include(_PUBLIC_.'login'.DS.'login.php');
+	break;
+
 
 	case 'appointment':
 		include(_PUBLIC_.'appointment'.DS.'_make_appointment.php');

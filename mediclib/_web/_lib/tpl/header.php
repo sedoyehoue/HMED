@@ -42,7 +42,11 @@
           </div>
           <?php }else{ ?>
           <div class="tg-admin">
-            <a href="<?php echo WEB.'user/login'; ?>" class="tg-btn">Se connecter</a>
+
+            <div class="tg-user">
+              <div class="tg-dropdown"> <a href="<?php echo WEB.'user/login'; ?>" class="tg-usermenu"> <em><i class="fa fa-sign-in"></i> <span>Se connecter</span></em> </a> </div>
+            </div>
+
           </div>
           <?php } ?>
         </div>

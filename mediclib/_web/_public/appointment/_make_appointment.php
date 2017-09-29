@@ -11,9 +11,6 @@ switch($page2):
 		$content = _PUBLIC_.'appointment'.DS.'make_appointment.php';
 	break;
 	
-	case 'logout':
-		
-	break;
 	
 endswitch;
 
@@ -25,7 +22,7 @@ endswitch;
 *~~*/
 switch($submit):
 
-	case 'login':
+	case 'save_make_apt':
 		
 	break;
 	
