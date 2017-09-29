@@ -34,7 +34,7 @@
                     <li> <a href="<?php echo WEB.'user/upgrade-package'; ?>"> <i class="fa fa-arrow-up"></i> <span>Update Package</span> </a> </li>
                     <li> <a href="<?php echo WEB.'user/security-settings'; ?>"> <i class="fa fa-gears"></i> <span>Security Settings</span> </a> </li>
                     <li> <a href="<?php echo WEB.'user/privacy-settings'; ?>"> <i class="fa fa-eye"></i> <span>Privacy Settings</span> </a> </li>
-                    <li> <a href="<?php echo WEB.'user/logout'; ?>"> <i class="fa fa-sign-out"></i> <span>Se Déconnecter</span> </a> </li>
+                    <li> <a href="<?php echo WEB.'login/logout'; ?>"> <i class="fa fa-sign-out"></i> <span>Se Déconnecter</span> </a> </li>
                   </ul>
                 </div>
               </div>
@@ -44,7 +44,7 @@
           <div class="tg-admin">
 
             <div class="tg-user">
-              <div class="tg-dropdown"> <a href="<?php echo WEB.'user/login'; ?>" class="tg-usermenu"> <em><i class="fa fa-sign-in"></i> <span>Se connecter</span></em> </a> </div>
+              <div class="tg-dropdown"> <a href="<?php echo WEB.'login/login'; ?>" class="tg-usermenu"> <em><i class="fa fa-sign-in"></i> <span>Se connecter</span></em> </a> </div>
             </div>
 
           </div>
