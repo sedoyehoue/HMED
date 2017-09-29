@@ -1,60 +1,50 @@
 
 					
 <?PHP
-					$a= array("1","2","3");
-print_r($a);
+// 					$a= array("1","2","3");
+// print_r($a);
 
-echo '<br/>';
-$b=serialize($a);
-echo $b;
+// echo '<br/>';
+// $b=serialize($a);
+// echo $b;
 
-echo '<br/>';
-$c=unserialize($b);
-print_r($c);
+// echo '<br/>';
+// $c=unserialize($b);
+// print_r($c);
 
-$d=array('CON00000001','CON00000002','CON00000003');
-$e= serialize($d);
+// $d=array('CON00000001','CON00000002','CON00000003');
+// $e= serialize($d);
 
-echo '<br/>';
+// echo '<br/>';
 
-echo $e;
-echo '<br/>';
+// echo $e;
+// echo '<br/>';
 
-$f='DOC00000011';
-$table = DBPREF.'doctors';
-echo $table;
-echo '<br/>';
-
-
-$row = Sql::query('UPDATE `'.DBPREF.'doctors` SET DOC_CON_CODE = '.$sql->Param('1').' WHERE DOC_CODE ='.$sql->Param('2').' ', array($e, $f) );
-
-if($row){echo 'succeed';
-}
-else{echo 'nooooooo';}
-
-echo '<br/>';
+// $f='DOC00000011';
+// $table = DBPREF.'doctors';
+// echo $table;
+// echo '<br/>';
 
 
-$row = Sql::select('SELECT  DOC_CON_CODE  FROM `'.DBPREF.'doctors` WHERE DOC_CODE ='.$sql->Param('2').' ', array($f), 'row' );
+// $row = Sql::query('UPDATE `'.DBPREF.'doctors` SET DOC_CON_CODE = '.$sql->Param('1').' WHERE DOC_CODE ='.$sql->Param('2').' ', array($e, $f) );
 
-$result = $row;
+// if($row){echo 'succeed';
+// }
+// else{echo 'nooooooo';}
 
-echo $result{0};
-echo '<br/>';
-echo '<br/>';
-
-$c=unserialize($result{0});
-print_r($c);
-
- 
+// echo '<br/>';
 
 
+// $row = Sql::select('SELECT  DOC_CON_CODE  FROM `'.DBPREF.'doctors` WHERE DOC_CODE ='.$sql->Param('2').' ', array($f), 'row' );
 
+// $result = $row;
 
+// echo $result{0};
+// echo '<br/>';
+// echo '<br/>';
 
-
-
-
+// $c=unserialize($result{0});
+// print_r($c);
 
 //Run this program its echo the output
 

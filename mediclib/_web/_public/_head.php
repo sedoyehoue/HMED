@@ -45,7 +45,7 @@ switch($page1):
 	break;
 
 	case 'login':
-		include(_PUBLIC_.'login'.DS.'login.php');
+		include(_PUBLIC_.'login'.DS.'_login.php');
 	break;
 
 
