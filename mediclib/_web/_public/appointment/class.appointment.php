@@ -10,50 +10,27 @@ class appointment
 
 {
 
-	private $doctorId;
-	private $doctorData
+	
 
-		/* this is to get a doctor information necessary to 
-		*  make appointment 
+		/* this is to set appointment 
 		*
 		*/
-		public static function getDoctorData($doc_code)
+		public static function setAppointment($params=array())
 		{
-				$row = Sql::select('SELECT  DOC_FIRSTNAME,DOC_CON_CODE,DOC_ADDRESS,DOC_TEL,DOC_EMAIL,DOC_SPE_CODE,DOC_CODE  FROM `'.DBPREF.'doctors` WHERE DOC_CODE ='.$sql->Param('1').' ', array($doc_code), 'row' );
-
-				if($row){ 
-					return $row;
+				$stmt = $sql->Execute($sql->Prepare('INSERT INTO `'.DBPREF.'appointment`(APP_CODE, APP_DATE_CREATED, APP_SCH_DATE, APP_SCH_TIME, APP_REASON, APP_DOC_CODE, APP_SIT_CODE) VALUES ('.$sql->Param('1').', '.$sql->Param('2').', '.$sql->Param('3').','.$sql->Param('4').', '.$sql->Param('5').', '.$sql->Param('6').', '.$sql->Param('7').')',array=($app_code,$created_date,$sch_date,$sch_time,$reason,$doc_code,$sit_code));
+				if($stmt){
+					
+					return $stmt->insert_id;;
 				} else {
-
-					return $sql->errorMsg();
+					return false;
 				}
-
 
 		}
 
-		public static function getDoctJobSite($doc_code)
+		public static function getAppointment()
 		{
-			$row = Sql::select('SELECT SIT_CODE, SIT_NAME, SIT_ADDRESS, SIT_DESC, SIT_DOC_CODE   FROM `'.DBPREF.'job_site` WHERE SIT_DOC_CODE ='.$sql->Param('1').' ', array($doc_code), 'row' );
-
-				if($row){ 
-					return $row;
-				} else {
-
-					return $sql->errorMsg();
-				}
-		}
-
-
-		public static function getDocConsultationList($params=array())
-		{
-			$rows = Sql::select('SELECT CON_NAME,CON_CODE   FROM `'.DBPREF.'consultation` WHERE CON_CODE IN ('.$sql->Param('1').') ', array($params), 'rows' );
-
-				if($row){ 
-					return $rows;
-				} else {
-
-					return $sql->errorMsg();
-				}
+			
+			
 		}
 
 
@@ -66,7 +43,7 @@ class appointment
 
 
 
-}
+} //end of class
 
 
 

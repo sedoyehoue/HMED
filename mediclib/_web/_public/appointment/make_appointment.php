@@ -539,7 +539,7 @@
 					<ul class="tg-formprogressbar">
 						<li class="tg-active"><span>Demande de Rendez-vous</span></li>
 						<li><span>Identification</span></li>
-						<li><span>Code de Verification</span></li>
+						<li><span>Verification</span></li>
 						<li><span>Demande Envoyé</span></li>
 					</ul>
 					<fieldset class="tg-formstepone tg-current">
@@ -568,7 +568,7 @@
 							<div class="col-sm-4 col-xs-12 tg-columnpadding" id="relation">
 								<div class="form-group">
 									<div class="tg-select">
-										<select name="relation" placeholder="His/Her Relation">
+										<select name="relation" placeholder="His/Her Relation" required="">
 											<option value="">votre relation*</option>
 											<option value="Family">Famille</option>
 											<option value="Friend">Ami(e)</option>
@@ -582,6 +582,8 @@
 									<div class="tg-select">
 										<select name="site_rdv" required>
 											<option value="">Lieu de RDV*</option>
+											<option value="SIT00000001">Clinique st bernard</option>
+											<option value="">Clinique st jean</option>
 											
 										</select>
 									</div>
@@ -591,6 +593,8 @@
 								<div class="form-group">
 									<div class="tg-select">
 										<select name="motif" required>
+											<option value="">Motif:*</option>
+											<option value="CON00000001">Consultation</option>
 											<option value="">Motif:*</option>
 										</select>
 									</div>
@@ -613,7 +617,7 @@
 							<div class="col-sm-12 col-xs-12 tg-columnpadding">
 								<div class="tg-dateandtimeslots">
 									<div class="tg-datebox">
-										<time datetime="2011-10-10">June 27, Wednesday</time>
+										<time datetime="2011-10-10"><?php $apt_dt = date('d-m-Y'); echo $apt_dt; ?></time>
 										<span>11 Available</span>
 										<i class="fa fa-calendar-check-o"></i>
 									</div>
@@ -635,7 +639,7 @@
 											<label for="firstavailableslot4">10:30</label>
 										</span>
 										<span class="tg-radio">
-											<input type="radio" id="firstavailableslot5" name="firstavailableslot" value="11:00">
+											<input type="radio" id="firstavailableslot5" name="firstavailableslot" value="<?php $apt_tm = '11:00'; echo $apt_tm; ?>">
 											<label for="firstavailableslot5">11:00</label>
 										</span>
 										<span class="tg-radio">
@@ -684,7 +688,7 @@
 							</div>
 						</div>
 						<div class="tg-btnbox">
-							<button type="button" class="tg-btn tg-btnnext">Suivant</button>
+							<button type="button" id="suivant_1" class="tg-btn tg-btnnext">Suivant</button>
 						</div>
 					</fieldset>
 					<fieldset class="tg-formsteptwo">
@@ -695,7 +699,7 @@
 												<a href="#login" aria-controls="login" role="tab" data-toggle="tab">Connectez-vous</a>
 											</li>
 											<li role="presentation">
-												<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab">SInscrivez-vous</a>
+												<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab">Inscrivez-vous</a>
 											</li>
 										</ul>
 
@@ -782,20 +786,60 @@
 						</div>
 					</fieldset>
 					<fieldset class="tg-formstepthree">
-						<h3>Enter Authentication Code</h3>
 						<div class="row">
 							<div class="col-sm-12 col-xs-12">
-								<div class="tg-description">
-									<p>Consectetur adipisicing elit sed do eiusmod tempor code sent to <a href="#">yourmail@domain.com</a> incididunt ut labore et dolore magna aliqua enim adminim ayiam quis nostrud exercitation commodo.</p>
+			<div class="tg-appointmentapprove tg-modal">
+		<div class="modal-dialog tg-modaldialog">
+			<div class="modal-content tg-modalcontent">
+				<div class="tg-tablescroll">
+					<div class="tg-favoritlistingbox">
+						<div class="tg-invoicestitle">
+							<span>Nom du Docteur</span>
+							<span class="tg-titleamount">Nom du Patient</span>
+							<span class="tg-titleaction">Affiliation</span>
+						</div>
+						<ul class="tg-favoritlist">
+							<li>
+								<div class="tg-favotirelistcontent">
+									<figure><a href="#"><img src="images/thumbnails/img-21.jpg" alt="image description"></a></figure>
+									<div class="tg-listdata">
+										<h4><a href="#">Cinda Landgraf</a></h4>
+										<span>Social Worker at Rival Links</span>
+									</div>
 								</div>
+								<div class="tg-amout">
+									<em>Nom_Patient</em>
+								</div>
+								<div class="tg-patientrelation">
+									<span>Cinda Landgraf</span>
+									<span>Husband</span>
+								</div>
+							</li>
+						</ul>
+						<div class="tg-visitreason">
+							<div class="tg-leftbox">
+								<h4>Motif</h4>
+								<span>Consultations</span>
 							</div>
-							<div class="col-sm-12 col-xs-12">
-								<input type="text" name="code" class="form-control" placeholder="Enter Authentication Code Here">
+							<div class="tg-rightbox">
+								<time datetime="2017-12-12">Jan 11, 2017 @ 09:00</time>
 							</div>
 						</div>
+						<div class="tg-description">
+							<p>Commentaire: ......Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minimniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conequats aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Apteur sint occaecat cupidatat non proident, sunt in culpa qui officia. deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totami rem aperiam, eaque ipsa quae.</p>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+							</div>
+							
+						</div>
 						<div class="tg-btnbox">
-							<button type="button" class="tg-btn tg-btnnext">Next Step</button>
-							<button type="button" value="submit" class="tg-btn tg-btnprevious">previous Step</button>
+							<button type="button" class="tg-btn tg-btnnext">Envoyer</button>
+							<button type="button" value="submit" class="tg-btn tg-btnprevious">Modifier</button>
 						</div>
 					</fieldset>
 					<fieldset class="tg-formstepfour">
@@ -832,23 +876,28 @@
 	<script>
 		
 		
-		$(document).ready(function(){
+	$(document).ready(function(){
 
 
-	$("#myself").prop("checked", true) ;
+
+	    $("#myself").prop("checked", true) ;
+	    $("#relation").hide();
 			
-								$("#myself").on("click", function(){
+		$("#myself").on("click", function(){
         $("#myself").prop("checked", true) ;
         $("#someoneelse").prop("checked", false) ;	
-        $("#relation").show();
+        $("#relation").hide();
 
-    }); 
+        }); 
 
     	$("#someoneelse").on("click", function(){
     	$("#someoneelse").prop("checked", true) ;
-     $("#myself").prop("checked", false) ;	
-     $("#relation").hide();
-   });
+        $("#myself").prop("checked", false) ;	
+        $("#relation").show();
+
+
+
+        });
 
 
 

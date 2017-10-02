@@ -35,6 +35,10 @@ switch($page1):
 		
 			include(_PUBLIC_.'search_result_v2'.DS.'_search_result.php');
 	break;
+
+	case 'profil':
+		include(_PUBLIC_.'profil'.DS.'_profil.php');
+	break;
 	
 	case 'user':
 		include(_PUBLIC_.'user'.DS.'_user.php');
@@ -47,6 +51,11 @@ switch($page1):
 	case 'login':
 		include(_PUBLIC_.'login'.DS.'_login.php');
 	break;
+
+	case 'login':
+		include(_PUBLIC_.'login'.DS.'_login.php');
+	break;
+
 
 
 	case 'appointment':
