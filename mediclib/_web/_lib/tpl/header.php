@@ -9,7 +9,7 @@
             </div>
             <div id="tg-navigation" class="tg-navigation collapse navbar-collapse">
               <ul>
-                <li><a href="<?php echo WEB.'appointment/make_appointment'; ?>">Vous êtes praticien?</a></li>
+                <li><a href="<?php echo WEB.'appointment/book_appointment'; ?>">Vous êtes praticien?</a></li>
                 <li><a href="<?php echo WEB.'how-it-works'; ?>">Comment ça marche?</a></li>
                 <li><a href="<?php echo WEB.'about'; ?>">A propos</a></li>
               </ul>

@@ -6,9 +6,12 @@
 **/
 switch($page2):
 
-	case 'make_appointment':
-		$title = 'Make appointment &ndash; '.$appname;
-		$content = _PUBLIC_.'appointment'.DS.'make_appointment.php';
+	case 'book_appointment':
+		$title = 'book appointment &ndash; '.$appname;
+		//model
+		include(_CONTROL_.'appointment.inc'); 
+		// content
+		$content = _PUBLIC_.'appointment'.DS.'book-appointment.php';
 	break;
 	
 	

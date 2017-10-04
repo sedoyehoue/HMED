@@ -59,7 +59,7 @@ switch($page1):
 
 
 	case 'appointment':
-		include(_PUBLIC_.'appointment'.DS.'_make_appointment.php');
+		include(_PUBLIC_.'appointment'.DS.'_book_appointment.php');
 	break;
 	
 	case 'doctors':

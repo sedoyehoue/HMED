@@ -23,6 +23,10 @@ if(isset($ajax_request) == false){
 		case 'sendmail':
 			include(_AJAX_.'sendmail.php');
 		break;
+
+		case md5('booking'):
+			include(_AJAX_.'booking.php');
+		break;
 		
 		case 'cart':
 			include(_AJAX_.'cart.php');

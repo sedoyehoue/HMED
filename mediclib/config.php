@@ -14,7 +14,7 @@ define( 'ROOT'        , 	dirname(__FILE__).DS);
 define( 'FRWK'        , 	$_SERVER['DOCUMENT_ROOT']);
 
 # F R O N T
-define( '_FRONT_'     ,		ROOT.DS.'_web'.DS );
+define( '_FRONT_'     ,		ROOT.'_web'.DS );
 define( '_PUBLIC_'    ,		_FRONT_.'_public'.DS );
 define( '_TEMPL_'     ,		_FRONT_.'_lib'.DS.'tpl'.DS );
 define( '_CONTROL_'   ,		_FRONT_.'_lib'.DS.'ctrl'.DS );
